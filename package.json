@@ -42,6 +42,7 @@
     "dependencies": {
         "@bradgarropy/gatsby-link": "^1.0.1",
         "@bradgarropy/gatsby-plugin-seo": "^2.1.0",
+        "@raae/gatsby-plugin-let-it-snow": "^0.6.0",
         "dotenv": "^10.0.0",
         "gatsby": "^4.2.0",
         "gatsby-plugin-catch-links": "^4.2.0",

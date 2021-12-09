@@ -69,5 +69,17 @@ module.exports = {
         {
             resolve: "@bradgarropy/gatsby-plugin-seo",
         },
+        {
+            resolve: "@raae/gatsby-plugin-let-it-snow",
+            options: {
+                colors: ["--snow"],
+                duration: 60000,
+                intensity: "regular",
+                season: {
+                    start: new Date("December 1"),
+                    end: new Date("January 1"),
+                },
+            },
+        },
     ],
 }

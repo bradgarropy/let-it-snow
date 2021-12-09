@@ -1,7 +1,22 @@
-body {
+:root {
     /* colors */
     --darkPurple: #663399;
     --lightPurple: #ccb3e6;
     --white: #ffffff;
     --black: #000000;
+    --snow: #ff0000;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --snow: #00ff00;
+    }
+
+    html {
+        background-color: var(--black);
+    }
+
+    h1 {
+        color: var(--white);
+    }
 }
